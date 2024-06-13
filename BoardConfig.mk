@@ -15,6 +15,9 @@ TARGET_OTA_ASSERT_DEVICE := sweet2
 # Audio
 TARGET_PROVIDES_AUDIO_EXTNS := true
 
+PRODUCT_PACKAGES += \
+    liblz4.vendor:64
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 
